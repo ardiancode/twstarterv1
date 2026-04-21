@@ -1,0 +1,14 @@
+{
+  "name": "twstarterv1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint:php": "vendor/bin/phpcs .",
+    "fix:php": "vendor/bin/phpcbf ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<ruleset name="Twstarterv1 Theme">
+    <description>WordPress Coding Standards for this theme</description>
+
+    <!-- Use WordPress standard -->
+    <rule ref="WordPress"/>
+
+    <!-- Scan only PHP files -->
+    <arg name="extensions" value="php"/>
+
+    <!-- Ignore folders -->
+    <exclude-pattern>vendor/*</exclude-pattern>
+    <exclude-pattern>node_modules/*</exclude-pattern>
+
+    <!-- Optional: show progress -->
+    <arg value="p"/>
+
+    <!-- Optional: better formatting -->
+    <arg name="colors"/>
+</ruleset>
